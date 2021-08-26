@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5 ">
+            <div class="col-10 mx-auto">
+                <label for="red"class="form-label text-dark"><strong>RED:</strong></label>
+                <input type="range" class="form-control" min="0" max='255' step="1" name="" id="red">
+            </div>
+        </div>
+        <div class="row mt-5 ">
+            <div class="col-10 mx-auto">
+                <label for="green"class="form-label text-dark"><strong>GREEN:</strong></label>
+                <input type="range" class="form-control" min="0" max='255' step="1" name="" id="green">
+            </div>
+        </div>
+
+        <div class="row mt-5 ">
+            <div class="col-10 mx-auto">
+                <label for="blue"class="form-label text-dark"><strong>BLUE:</strong></label>
+                <input type="range" class="form-control" min="0" max='255' step="1" name="" id="blue">
+            </div>
+        </div>
+
+        <div class="row mt-5 ">
+            <div class="col-8 mx-auto result">
+               <input type="text" name="" class="form-control" readonly id="result">
+            </div>
+            <div class="col-2">
+                <button class="btn btn-dark btn-sm">Copy</button>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
